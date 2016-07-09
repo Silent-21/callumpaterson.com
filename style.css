@@ -1,30 +1,133 @@
-/*  #ff4000  */
-#main{
+/* ----- HTML5 RESET ------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  
+---- Style Sheet Begins ----
+
+Colours:
+	Orange - #ff4000
+	Grey Text - #4c4c4c
+	Grey BG - #f6f8f8
+	White - #fff
+	Black - #000
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Nobile', sans-serif; 
+font-family: 'Lobster', cursive;
+*/
+body{
+	background-color: #f6f8f8
+}
+section.main{
 	width:100%;
-	height:20%;
-	background-color:orange;
+	height:20vh;
+}
+article.title{
+	width:70%;
+	float:left;
+}
+nav{
+	width:30%;
+	float:right;
+	padding-top: 2%;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff4000;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding:10px;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+h1.header{
+	font-family: 'Lobster', cursive;
+	color:#4c4c4c;
+	font-size: 50px;
+	background-color:transparent;
+	margin-left: 2%;
+	padding-top: 2%;
+}
+section.narrow{
+	width:100%;
+	height:20vh;
+	background-color:#ff4000;
+	clear:both; 
+}
+h1.content{
+	font-family: 'Nobile', sans-serif;
+	font-size: 40px;
+	color:#4c4c4c;
+	text-align: center;
+	padding-top:4%;
+	padding-left: 2%;
+}
+section.content{
+	height: 50vh;
+	width: 100%;
+}
+article.profile{
+	padding-top: 2%;
+	width:40%;
+	height:100%;
+	margin-left: 10%;
+}
+div.profbg{
+	width:275px;
+	height:450px;
+	margin:0;
+	background-color:#333;
+}
+img.prof{
+	height:425px; 
+	width:250px;
+	margin:12.5px;
 }
