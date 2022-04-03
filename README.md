@@ -1,2 +1,2 @@
 # callumpaterson.com
-the beginnings of my personal website :D
+This repo is the basis of my personal website. Writen utilising CSS Grid for basic structure.
